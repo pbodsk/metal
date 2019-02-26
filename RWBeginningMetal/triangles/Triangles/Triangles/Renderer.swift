@@ -15,9 +15,12 @@ class Renderer: NSObject {
     var commandQueue: MTLCommandQueue!
     
     var vertices: [Float] = [
-        0, 1, 0,
+        -1, 1, 0,
         -1, -1, 0,
-        1, -1, 0
+        1, -1, 0,
+        1, -1, 0,
+        1, 1, 0,
+        -1, 1, 0
     ]
     
     var pipelineState: MTLRenderPipelineState?
