@@ -18,6 +18,7 @@
 		D012764F22467B2C0086938E /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012764E22467B2C0086938E /* Scene.swift */; };
 		D012765122467B320086938E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012765022467B320086938E /* GameScene.swift */; };
 		D012765322467B7B0086938E /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012765222467B7B0086938E /* Types.swift */; };
+		D0127655224682380086938E /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0127654224682380086938E /* Renderable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D012764E22467B2C0086938E /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		D012765022467B320086938E /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D012765222467B7B0086938E /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		D0127654224682380086938E /* Renderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				D012763D22467A450086938E /* Info.plist */,
 				D012763E22467A450086938E /* Shaders.entitlements */,
 				D012765222467B7B0086938E /* Types.swift */,
+				D0127654224682380086938E /* Renderable.swift */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				D012764722467ABD0086938E /* Shader.metal in Sources */,
 				D012764C22467B1D0086938E /* Node.swift in Sources */,
 				D012765122467B320086938E /* GameScene.swift in Sources */,
+				D0127655224682380086938E /* Renderable.swift in Sources */,
 				D012763722467A440086938E /* ViewController.swift in Sources */,
 				D012764522467AB30086938E /* Renderer.swift in Sources */,
 				D012764F22467B2C0086938E /* Scene.swift in Sources */,
