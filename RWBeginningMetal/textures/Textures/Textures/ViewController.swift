@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Shaders
+//  Textures
 //
-//  Created by Peter Bødskov on 23/03/2019.
+//  Created by Peter Bødskov on 24/03/2019.
 //  Copyright © 2019 Peter Bødskov. All rights reserved.
 //
 
@@ -35,6 +35,6 @@ class ViewController: NSViewController {
         renderer.scene = GameScene(device: metalView.device!, size: view.bounds.size)
         
         metalView.clearColor = Colors.backgroundColor
-        metalView.delegate = renderer        
+        metalView.delegate = renderer
     }
 }
